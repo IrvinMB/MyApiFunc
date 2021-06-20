@@ -6,3 +6,7 @@
 //
 
 import Foundation
+struct Posts : Codable {
+    var id : Int
+    var title : String
+}
